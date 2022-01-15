@@ -1,0 +1,328 @@
+.wrapper{
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+    min-width: 300px;
+    margin-top: 50px;
+}
+
+.login-img, .login-form{
+    float: left;
+    padding-top: 50px;
+
+}
+
+
+.login-img{
+    width: 60%;
+    height: 100vh;
+    min-height: 600px;
+}
+
+.login-img .content{
+    width: 100%;
+
+}   
+
+.login-img .content .title {
+    width: 65%;
+}
+
+.login-img .content .title p:first-child{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.login-img .content .img {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    padding-right: 40px;
+    margin-top: 30px;
+
+
+}
+
+.login-img .content .img > img{
+    height: 60vh;
+    max-height: 400px;
+    width: 100%;
+}
+
+.pink{
+    color: #F54253;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.login-form{
+    width: 40%;
+    background: #FAFAFA;
+    height: 100vh;
+    padding: 20px;
+    min-height: 600px;
+    padding-top: 50px;
+
+}
+
+.login-form .login-form-content{
+    width: 100%;
+}
+
+.logo-content{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-content .img{
+    width: 20%;
+    min-width: 80px;
+}
+
+.logo-content .img>img{
+    width: 100%;
+}
+
+
+
+div, input, a{
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+
+  .text1{
+      font-weight: 700;
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      padding: 3%;
+      box-sizing: border-box;
+  }
+
+
+
+
+  
+.logo-content{
+    width: 100%;
+}
+
+.register-content{
+    width: 100%;
+
+}
+
+.register-content .info{
+    width: 100%;
+    box-sizing: border-box;
+}
+.register-content .info > input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 14px;
+    border-radius: 3px;
+    border: 1px solid #8D8D8D;
+}
+
+.forgotpass-content{
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.forgotpass-content .left-content, .forgotpass-content .right-content{
+    width: 50% ;
+    float: left;
+}
+
+.forgotpass-content .right-content{
+    text-align: right;
+    height: 100%;
+}
+
+.forgotpass-content .right-content > a{
+  color: black;
+}
+
+.button-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+}
+
+.button-content >div{
+  color: white;
+  background-color: black;
+  width: 60%;
+  text-align: center;
+  border-radius: 25px;
+  padding: 15px;
+  font-size: 12px;
+  font-weight: 600;
+  user-select: none;
+  min-width: 200px;
+  cursor: pointer;
+  transition: .4s;
+
+
+}
+
+
+.button-content >div:hover{
+  background-color: #F54253;
+  cursor: pointer;
+  transition: .4s;
+
+}
+
+.seperate-content, .google-content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+  
+}
+
+
+.seperate-content >div{
+  color: #BCBCBC;
+}
+
+.seperate-content >div:before, .seperate-content >div::after{
+  content: '\2014';
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #BCBCBC;
+}
+
+
+.google-content >div{
+  border: 1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 25px;
+  width: 60%;
+  text-align: center;
+  user-select: none;
+min-width: 200px;
+cursor: pointer;
+transition: .4s;
+
+
+
+
+
+}
+.google-content >div:hover{
+  background-color: yellow;
+  cursor: pointer;
+  transition: .4s;
+
+}
+.google-content > div >div{
+  font-weight: 600;
+  display: inline;
+  font-size: 14px;
+
+}
+
+.fa-google{
+
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin-right: 10px;
+  display: inline;
+}
+
+.no-account-content{
+  text-align: center;
+  margin-top: 12px;
+}
+.no-account-content> div, .no-account-content> a{
+  display: inline;
+}
+
+
+.no-account-content > a{
+  text-decoration: underline;
+  color: #F54253;
+}
+  
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 892px){
+    .login-form{
+        width: 50%;
+    }
+
+    .login-img{
+        width: 50%;
+    }
+
+    .login-img .content .img > img{
+        height: auto;
+        max-height: 400px;
+        width: 100%;
+    }
+
+    .login-img .content .title {
+        width: 100%;
+    }
+
+   
+}
+
+@media only screen and (max-width: 733px){
+    .login-img{
+        display: none;
+    }
+
+    .login-form{
+        width:100%;
+    }
+
+    .forgotpass-content .left-content, .forgotpass-content .right-content{
+        width: 100%;
+      }
+
+      .button-content >div, .google-content>div{
+        width: 100%;
+      }
+      
+
+}
+
+@media only screen and (max-width: 434px){
+    .forgotpass-content{
+        display: inline-block;
+        height: auto;
+    
+      }
+    
+      .forgotpass-content .left-content, .forgotpass-content .right-content{
+        width: 100%;
+        text-align: right;
+      }
+}
